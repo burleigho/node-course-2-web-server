@@ -39,10 +39,10 @@ app.get('/', (req, res) => {
     })
 });
 
-app.get('/dummy', (req, res) => {
-  res.render('dummy.hbs', {
-    welcomePage: 'Welcome to my Dummy Page',
-    pageTitle: 'Dummy Page',
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    welcomePage: 'Welcome to my Projects Page',
+    pageTitle: 'Projects Page',
   })
 });
 
